@@ -33,12 +33,10 @@ defineOptions({
 
 const router = useRouter();
 
-// Función para redirigir a la página del formulario de archivos
 function goToFileForm() {
   router.push('/file-form');
 }
 
-// Función para redirigir a la página de archivos
 function goToFiles() {
   router.push('/files');
 }
@@ -46,31 +44,31 @@ function goToFiles() {
 
 <style scoped>
 .dashboard-card {
-  max-width: 400px; /* Limita el ancho del card */
-  margin: 20px auto; /* Centra el card horizontalmente y le da margen vertical */
-  padding: 20px; /* Añade padding interno al card */
-  border-radius: 10px; /* Esquinas redondeadas para el card */
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Sombra sutil */
-  background-color: #ffffff; /* Fondo blanco */
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
 }
 
 .text-bold {
-  font-weight: bold; /* Texto en negrita */
+  font-weight: bold;
 }
 
 .q-btn {
-  transition: background-color 0.3s; /* Efecto de transición para el color de fondo */
+  transition: background-color 0.3s;
 }
 
 .custom-button {
-  border-radius: 15px; /* Esquinas redondeadas para los botones */
+  border-radius: 15px;
 }
 
 .q-btn:hover {
-  opacity: 0.9; /* Ligera reducción de opacidad en hover */
+  opacity: 0.9;
 }
 
 .text-center {
-  text-align: center; /* Centra el texto */
+  text-align: center;
 }
 </style>
