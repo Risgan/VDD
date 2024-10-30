@@ -1,8 +1,8 @@
 {
-  "name": "virtual-document-drawer",
+  "name": "vdd-virtualdocumentdrawer",
   "version": "0.0.1",
-  "description": "Una aplicación de cajón de documentos virtual para organizar y administrar archivos con información asociada",
-  "productName": "Virtual Document Drawer",
+  "description": "A Quasar Project",
+  "productName": "Quasar App",
   "author": "John Rueda <johnrueda7@hotmail.com>",
   "private": true,
   "scripts": {
@@ -13,8 +13,6 @@
     "build": "quasar build"
   },
   "dependencies": {
-    "axios": "^1.2.1",
-    "pinia": "^2.0.11",
     "@quasar/extras": "^1.16.4",
     "quasar": "^2.16.0",
     "vue": "^3.4.18",
