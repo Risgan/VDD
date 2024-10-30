@@ -6,16 +6,24 @@ const routes: RouteRecordRaw[] = [
   //   component: () => import('layouts/MainLayout.vue'),
   //   children: [{ path: '', component: () => import('pages/IndexPage.vue') }],
   // },
-
-  // // Always leave this as last one,
-  // // but you can also remove it
   // {
-  //   path: '/:catchAll(.*)*',
-  //   component: () => import('pages/ErrorNotFound.vue'),
-  // },
-  { path: '/', component: () => import('pages/Index.vue') },
-  { path: '/new-document', component: () => import('pages/NewDocument.vue') },
-  { path: '/control-panel', component: () => import('pages/ControlPanel.vue'), meta: { requiresAuth: true } },
+  //     path: '/',
+  //     component: () => import('layouts/MainLayout.vue'),
+  //     children: [{ path: '', component: () => import('pages/LoginPage.vue') }],
+  //   },
+  { path: '/login', component: () => import('pages/LoginPage.vue') },
+  { path: '/register', component: () => import('pages/RegisterPage.vue') },
+  { path: '/home', component: () => import('pages/DashboardPage.vue') },
+  { path: '/file-form', component: () => import('pages/FileFormPage.vue') },
+  { path: '/files', component: () => import('pages/FilesGridPage.vue') },
+  { path: '/folders', component: () => import('pages/FolderPage.vue') },
+  { path: '/file/:id', component: () => import('pages/FileDetailPage.vue') },
+  // Always leave this as last one,
+  // but you can also remove it
+  {
+    path: '/:catchAll(.*)*',
+    component: () => import('pages/ErrorNotFound.vue'),
+  },
 ];
 
 export default routes;

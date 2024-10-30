@@ -1,6 +1,6 @@
-# Virtual Document Drawer (virtual-document-drawer)
+# Quasar App (vdd-virtualdocumentdrawer)
 
-Una aplicación de cajón de documentos virtual para organizar y administrar archivos con información asociada
+A Quasar Project
 
 ## Install the dependencies
 ```bash
